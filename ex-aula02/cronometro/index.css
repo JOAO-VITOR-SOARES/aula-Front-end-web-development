@@ -1,0 +1,59 @@
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.start{
+
+    gap: 10px;
+    width: 100px;
+    height: 75px;
+    background: #028BA9;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.stop{
+
+    width: 100px;
+    height: 75px;
+
+    background: #028BA9;
+    border-radius: 10px;
+
+
+}
+
+.pause{
+    
+
+    gap: 10px;
+
+    width: 100px;
+    height: 75px;
+
+    background: #028BA9;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

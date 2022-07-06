@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+}
+
+.digital{
+  background-color:red;
+}
+
+#c{
+  font-family: 'Orbitron', sans-serif;
+  color: green;
+  text-align: center;
+  font-size:100px;
+  padding-top:180px;
+}
+
+.buttons{
+  color: #FFFFFF;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  height: 100px;
+}

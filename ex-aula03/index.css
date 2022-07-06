@@ -1,0 +1,44 @@
+*{
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}
+body{
+    background-color: rgb(232, 204, 204);
+}
+.conteudo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+#pesquisa{
+    width: 20vw;
+    height: 4vh;    
+}
+#conteudo_list{
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 25vh;
+
+}
+
+#titulo {
+    padding-top:100px;
+}
+
+#linha{
+    width: 776px;
+    height: 0px;
+    border: 1px solid #000000;
+}
