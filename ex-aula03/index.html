@@ -13,17 +13,36 @@
         <h1 id="titulo">My ToDo List</h1>
         <div id="pesquisa">
             <input type="input" name="pesquisa" id="pesquisa"> 
-            <button  class="button"type="button"><span>+</span></button>
+            <button  class="button"type="button">+</button>
         </div>
-
+        
         <div class="formulario">
-            <label class="conteudo_list">
-                <input type="checkbox" class="input"> <span class="plvr"> Receber js</span>
-            </label>
 
-            <label class="conteudo_list">
-                <input type="checkbox" class="input"> <span class="plvr">Vai receber js</span>
-            </label>
+            <div class="conteudo_list">
+                <div>
+                    <input type="checkbox">  
+                    <label class="prvl">Receber js</label>  
+             </div>
+             
+                <button>
+                    <!-- <img class="icons" src="icons/trash-2.svg"> -->
+                    <i class="trash" data-feather="trash"></i>
+                </button>
+        
+            </div>
+            
+            <div class="conteudo_list">
+            <div>
+                <input type="checkbox">  
+                <label class="prvl">Receber js</label>  
+            </div>
+         
+            <button>
+                <!-- <img class="icons" src="icons/trash-2.svg"> -->
+                <i class="trash" data-feather="trash"></i>
+            </button>
+
+        </div>
         </div>
 
         <div id="linha"></div>
@@ -32,7 +51,15 @@
             <p>Tarefas concluida: <span class="number_concluidas">0</span></p>
             <p>Tarefas Pendentes: <span class="number_pendentes">1</span></p>
         </div>
+
     </div>
+
 </body>
+    <script src="https://unpkg.com/feather-icons"></script>
     <script type="text/javascript" src="index.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+
 </html>
