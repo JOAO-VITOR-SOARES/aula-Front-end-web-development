@@ -1,4 +1,4 @@
-let REPOS = document.querySelector("#repositorios");
+const REPOS = document.querySelector("#repositorios");
 
 function git() {
     fetch(`https://api.github.com/users/JOAO-VITOR-SOARES/repos`)
@@ -13,18 +13,14 @@ function git() {
         alert(error.message)
     })
     .then(response => {
-        console.log(response.list)
-        displayResults(response)
+        return response.forEach(displayResults)
     });
 
 }
-const teste2 = git();
 
-array.forEach(repositorios => {
-    
-});
+const teste = git();
     function displayResults(repositorios){
-    console.log(repositorios[0])
-    REPOS.innerText = JSON.stringify(repositorios[0].name);
+    let REPOS2 = document.createElement("div");
+    REPOS2.innerHTML = repositorios.name;
+    REPOS.appendChild(REPOS2)
 }
-
