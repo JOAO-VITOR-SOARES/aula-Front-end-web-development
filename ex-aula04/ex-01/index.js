@@ -1,6 +1,7 @@
 const REPOS = document.querySelector("#repositorios");
 
 function git() {
+
     fetch(`https://api.github.com/users/JOAO-VITOR-SOARES/repos`)
 
     .then(response => {
@@ -18,7 +19,9 @@ function git() {
 
 }
 
+
 const teste = git();
+
     function displayResults(repositorios){
     let REPOS2 = document.createElement("div");
     REPOS2.innerHTML = repositorios.name;
