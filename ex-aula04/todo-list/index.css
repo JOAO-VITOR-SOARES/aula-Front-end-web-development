@@ -31,12 +31,13 @@
     flex-direction: column;
     gap:20px;
 }
-#pesquisa{
+.pesquisa{
+    display: inline-flex;
     border: 1px solid black;
-    display: flex;
     width: 20vw;
-    height: 4vh;    
+    height: 4vh;  
 }
+
 .conteudo_list{
     display: flex;
     justify-content: space-between;
